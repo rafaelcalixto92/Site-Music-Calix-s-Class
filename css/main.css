@@ -1,0 +1,393 @@
+body {                              /*corpo do site*/
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-color: rgb(3, 3, 3);
+}
+
+.menu-principal {               /*barra cinza superior*/
+    width: 100%;
+    background-color: rgb(3, 3, 3);
+    height: 80px;
+}
+
+main {                          /*limite de margem dos elementos*/
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {                             /*logo */
+    float: left;
+    padding-left: 30px;
+    width: 20%;
+
+}
+.icones-superior ul li {            /*posição icones superiores*/
+    margin-left: 15px;
+    display: inline-block;
+    float:left ;
+    list-style: none;
+}
+
+
+
+
+
+
+.icones-superior ul li a {          /*estetica*/
+    color: white;
+    text-decoration: none;
+    font-style: italic;
+    font-weight: bold;
+    font-family: urbanist;
+    font-size: 20px;
+    transition: 1.5s;
+}
+
+.icones-superior ul li a:hover {    /*wpp dps que passa o mouse*/
+    text-decoration: underline;
+    
+}
+
+.icones-superior {              /*posição geral dos icones*/
+    padding: 10px;
+    padding-top: 13px;
+    width: 40%;
+    float: right;
+}
+
+.test {                             /*primeira parte */
+    width: 100%;
+    height: 150px;
+    padding-top: 0px;
+    text-align: center;
+    float: none;
+}
+.gif{                   /*gif do som*/
+    width: 100%;
+    height: 200px;
+    padding-top: 0px;
+    text-align: center;
+    float: none;
+    background-image: url(../imagens/gif\ som.gif);
+    background-repeat: no-repeat;
+    background-position:center center;
+
+}
+
+.text-p {                           /* texto 1 da primeira parte*/
+    color: white;
+    font-family: urbanist;
+    font-weight: bolder;
+    text-align: center;
+    background-color: black;
+    width: 100%;
+    font-style: italic;
+    font-size: 35px;
+}
+
+.text-p2
+{                              /*texto 2 da primeira parte*/
+    color: white;
+    font-family: urbanist;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    background-color: black;
+    font-weight: 200;
+}
+.link-1 {                               /*link wpp*/
+    text-decoration: none;
+    color: green;
+    font-size: 1.2em;
+    font-family: roboto;
+    transition: 1.5s;
+    padding: 1em;
+    border-radius: 0.5em;
+    
+    
+}
+.link-1:hover           /*wpp dps que passa o mouse*/
+{
+    transform: rotateY(360deg);
+    background-color:rgb(37, 173, 119);
+    color: rgb(245, 245, 245);
+    transition-delay: none;
+}
+
+
+.barra-cinza                            /*barra cinza  segunda parte*/
+    {
+    width: 100%;
+    height: 830px;
+    background-color: #0f0f0f;
+    }
+
+.text-p3 {                              /*titulo do topico*/
+    color: white;
+    font-family: roboto;
+    font-style: italic;
+    text-align: center;
+    font-size: 20px;
+    text-decoration: none;
+    padding-top: 17px;
+    font-weight: 100;
+    letter-spacing: 4px;
+    padding-bottom: none;
+
+}
+
+.text-p4 {                          /*1ª Escrita da segunda parte*/
+    color: white;
+    font-family: urbanist;
+    text-align: center;
+    font-size: 25px;
+    text-decoration: none;
+    border-top: none;
+}
+
+.text-p5 {                          /*1ª Escrita da segunda parte azul*/
+    color: #1398BE;
+    font-family: urbanist;
+    text-align: center;
+    font-size: 30px;
+    text-decoration: none;
+    font-weight: bolder;
+    border-top: none;
+}
+
+.text-p6 {              /*2ª Escrita da segunda parte*/
+    color: white;
+    font-family: roboto;
+    font-weight: bolder;
+    text-align: left;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    float:none ;
+    list-style: none;
+    overflow-wrap: break-word;
+    margin-left: 9%;
+    width: 40%;
+
+    
+    }
+
+
+.gif2
+{                   /*gif onda*/
+    width: 350px;
+    padding-left: 9%;
+    float: left
+    
+}
+.img-onda,.text-p6{
+    display: inline-block;
+    align-items: center;
+}
+
+
+.gif3
+{                   /*gif onda*/
+    width: 350px;
+    padding-right: 9%;
+    float: right
+}
+.gif4
+{                   /*gif onda*/
+    width: 280px;
+    padding-right: 14%;
+    display: block;
+    float: right;
+    
+}
+.img-historia,.text-p6{         
+    display: inline-block;
+    align-items: center;
+}
+
+.serviços{                          /*Tipos de aula*/
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.barra-cinza2                          /*barra cinza  terceira parte*/
+    {
+    width: 100%;
+    height: 500px;
+    background-color: #0f0f0f;
+      
+}
+.imgserviços{   
+    width: 120px;
+    padding-left: 9%;
+    display: block;
+    margin: auto;
+    padding-left: 20%;
+    
+}
+    
+
+.demonstração
+{
+    width: 100%;
+    padding: 0;
+    font: optional;
+}
+video{
+    display: block;
+    margin: auto;
+    border-radius: 20px;
+}
+.text-pdemonstração
+{                              /*texto 2 da primeira parte*/
+    color: white;
+    font-family: urbanist;
+    font-weight: bolder;
+    text-align: center;
+    font-style: italic;
+    font-size: 15px;
+    text-decoration: none;
+    font-weight: 200;
+}
+
+.F.A.Q{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+
+.grid-Serv {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 2rem;
+    background-color: transparent;
+    padding: 10px;
+    padding-left: 30px;
+    align-content: stretch;
+    margin-bottom: 80px;
+  
+  }
+  
+  .grid-Serv>div {
+    text-decoration: none;
+    text-align: center;
+    padding: 3rem 3rem 2rem ;
+    font-size: 16px;
+    color: #757c80;
+    background-color: #0f0f0f;
+    border-radius: 20px;
+    border: .0625rem solid #1398BE;
+    box-sizing: border-box;
+
+  }
+  .text-grid1
+  
+  {display: inline-block;
+    font-family: "Fira Code",monospace;
+    font-size: 1rem;
+    line-height: 1.5;
+    font-weight: 400;
+    color: #757c80
+}
+
+  .text-grid2{
+    font-family: "Fira Code",monospace;
+    display: block;
+    font-size: 1.125rem;
+    line-height: 1.3333;
+    color: #bebebe;
+    text-align: right;
+    margin-top: 2rem;
+    
+}
+
+footer{
+    background: #111;
+    height: auto;
+    width: 100vw;
+    font-family: roboto;
+    padding-top: 40px;
+    color: #fff;
+}
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.footer-content h3{
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+
+}
+.footer-content p{
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+
+}
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+.socials li{
+    margin: 0 10px ;
+}
+.socials a{
+    text-decoration: none;
+    color:  #fff;
+}
+.socials a i{             /* google   <li><a href="#"> <i class="fa fa-google-plus   "></i></a></li>*/
+    font-size: 1.1rem;
+     transition: color .4s ease; 
+}
+.socials a:hover{
+    color: aqua;
+}
+
+
+
+
+.footer-bottom {
+   
+    background: linear-gradient(135deg, #85cdf3, #0e738f);
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center; 
+    
+}
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform:capitalize;
+    
+    }
+
+    .footer-bottom span{
+        text-transform: uppercase;
+        opacity: .4;
+        font-weight: 200 ;
+    }
+
+ #link-topo{
+    text-decoration: none;
+    color: #fff;
+    background-color:rgba(51, 48, 53, 0.788) ;
+    padding: 10px;
+    position:  fixed;
+    right: 10px;
+    bottom: 10px;
+    box-shadow: 1PX 1px 10px aqua;
+    border-radius: 12px;
+
+}

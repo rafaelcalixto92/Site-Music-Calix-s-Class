@@ -1,0 +1,162 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-style: italic;    
+}  
+
+
+#titulo{
+    font-family: arial;
+    color: white;
+    margin-left: 7%;
+     
+}
+
+#subtitulo{
+    font-family: urbanist;
+    color: white;
+    margin-left: 7%;
+     
+}
+fieldset{
+    border: 0;
+}
+body
+{
+    background-image: url(../imagens/instrumentos\ fundo\ contato.jpg) ;
+    background-position: top center;    
+    background-size: 700px;
+    background-color: rgb(241, 233, 233);
+    
+    font-family: roboto;
+    font-size: 0.8em;
+    color: #85cdf3;
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+.body2
+{
+    background-image: url(../imagens/tocar\ violao\ fundo\ matricular-se\ 2.jpg) ;
+    background-position: top center;  
+    background-size: 700px;
+    background-color:rgb(202, 184, 146);
+    
+    font-family: roboto;
+    font-size: 1em;
+    color: #0c0d0e;
+    margin-left: 36%;
+    margin-top: 2%;
+}
+
+input,select,textarea,button{
+    border-radius: 8px;
+}
+
+.campo
+{
+    margin-bottom: 1em;
+}
+.campo label{
+    margin-bottom: 0.2em;
+    color: #85cdf3;
+    display: block;
+}
+fieldset.grupo .campo{
+    float: left;
+    margin-right: 1em;
+}
+.campo input[type="text"], .campo input[type="email"], .campo select,.campo textarea{
+    padding: 0.2em;
+    border: 1px solid ;
+    display: block;
+}
+
+.campo select option{
+    padding-right: 1em;
+}
+.campo input:focus .campo select:focus, .campo textarea:focus {
+    background:white;
+}
+.botao{
+    font-size: 1.2em;
+    background-color:#0f0f0f;
+    border: 0;
+    margin-bottom: 1em;
+    color: aqua;
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px aqua;
+    text-shadow: 1px 1px 1px aqua;
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    margin-right: -50%;
+    transform: translate(-50%,50);
+    transition: 0.5s;
+    display:  inline-block;
+}
+.botao:hover{
+    background:  rgba(38, 4, 119, 0.952);
+    box-shadow: 5px 5px 5px black;
+    text-shadow: none;
+
+}
+
+
+#fundo{
+    background-color: #0f0f0f;
+    opacity: 0.8;
+    background-position:center;
+    width: 500px;
+    padding:2%;
+    border-radius: 18px;
+    position: relative;
+}
+        
+
+#fundo2{
+    background-color: rgb(141, 123, 83);
+    opacity: 0.8;
+    background-position:center;
+    width: 500px;
+    padding:2%;
+    border-radius: 18px;
+    position: relative;
+}
+
+.botao2{
+    font-size: 1.2em;
+    background-color:#81541a;
+    border: 0;
+    margin-bottom: 1em;
+    color: rgb(255, 255, 255);
+    padding: 0.2em 0.6em;
+    box-shadow: 2px 2px 2px rgb(143, 92, 16);
+    text-shadow: 1px 1px 1px rgb(215, 250, 15);
+    top: 90%;
+    left: 50%;
+    text-align: center;
+    margin-right: -50%;
+    transform: translate(-50%,50);
+    transition: 0.5s;
+    display:  inline-block;
+}
+.botao2:hover{
+    background:  rgba(0, 0, 0, 0.952);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    text-shadow: none;
+    color: #85cdf3;
+
+}
+       
+main {                          /*limite de margem dos elementos*/
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo {                             /*logo */
+    display: block;
+    float: left;
+    width: 20%;
+
+}
