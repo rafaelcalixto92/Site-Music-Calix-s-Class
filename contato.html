@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Contato</title>
+    <link rel="stylesheet" href="css/matricula.css">
+</head>
+
+<body class="body2">
+
+    <div id="fundo2">
+        <div class="logo">
+            <a href="index.HTML"><img src="imagens/LOGO ESCRITA PRETA.png" width="90px" height="75px"></a>
+        </div>
+        <div>
+            <h1 id="titulo"> &emsp;&emsp;Contato <span style="color: aqua;"><br> Music Calix's Class</span></h1>
+            
+            <br>
+        </div>
+
+        <form>
+            <fieldset class="grupo">
+                <div style="padding-bottom: 5px;">
+                    <label for="nome"><b>Nome</b></label>
+                    <br>
+                    <input type="text" nome="nome" id="nome" required>
+
+                </div>
+                
+                <div class="campo">
+                    <label for="sobrenome" style="color: black;"><b>Sobrenome</b></label>
+                    <input type="text" nome="sobrenome" id="sobrenome" required>
+
+                </div>
+            </fieldset>
+
+            <div class="campo">
+                <label for="email" style="color: black"><b>Email</b></label>
+                <input type="email" nome="email" id="email">
+            </div>
+
+            <div class="campo">
+                <label for="telefone" style="color: black"><b>Telefone:</b></label>
+                <input type="tel" nome="tel" id="Telefone" required>
+            </div>
+
+            <div class="campo">
+                <label for="curso" style="color: black"><b>Qual a sua relação com nossa Escola?</b></label>
+                <label>
+                    <input  type="radio" name="devilweb" value="Sou aluno:" checked><span style="color: black"><strong>Sou aluno</strong>
+                    </span></label>
+                <label>
+                    <input type="radio" name="devilweb" value="Pretendo ser aluno"><span style="color: black"><strong>Pretendo ser aluno </strong></span>
+                </label>
+                <label>
+                    <input type="radio" name="devilweb" value="Não sou e nem pretendo ser aluno"><span style="color: black"><strong>Não sou e nem pretendo ser aluno</strong></span>
+                </label>
+                
+            </div>
+            
+            </fieldset>
+            <div>
+                <br>
+                <label><b>Mensagem:</b></label>
+                <textarea row="6" style="width:12cm" id="Motivos" name="Motivos"></textarea>
+            </div>
+            
+            <button class="botao2" type="submit">Enviar</button>
+
+        </form>
+    </div>
+</body>
+
+</html>
